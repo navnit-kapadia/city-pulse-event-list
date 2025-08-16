@@ -1,8 +1,10 @@
-# City Pulse Explorer
+# City Pulse Explorer 🌆
 
 A modern web application for discovering and exploring local events and activities in your city. Built with React 19, TypeScript, and Vite.
 
-## 🚀 Features
+[![Live Demo](https://img.shields.io/badge/🌐-Live%20Demo-blue)](https://city-pulse-event-list.vercel.app/)
+
+## 🌟 Features
 
 - 🔍 Discover local events and activities
 - 🌍 Multi-language support (i18n)
@@ -28,46 +30,84 @@ A modern web application for discovering and exploring local events and activiti
 ### Prerequisites
 
 - Node.js 18+ and npm/yarn/pnpm
-- Firebase project setup (for authentication and Firestore)
+- Firebase account (for authentication and database)
+- Ticketmaster API key (for event data)
 
-### Installation
+### 🛠 Installation
 
-1. Clone the repository
-
+1. **Clone the repository**
    ```bash
    git clone https://github.com/yourusername/city-pulse-explorer.git
    cd city-pulse-explorer
    ```
 
-2. Install dependencies
-
+2. **Install dependencies**
    ```bash
+   pnpm install  # Recommended
+   # or
    npm install
    # or
-   yarn
-   # or
-   pnpm install
+   yarn install
    ```
 
-3. Create a `.env` file in the root directory and add your Firebase configuration:
-
-   ```
+3. **Environment Setup**
+   Create a `.env` file in the root directory with the following variables:
+   ```env
+   # Firebase Configuration
    VITE_FIREBASE_API_KEY=your-api-key
    VITE_FIREBASE_AUTH_DOMAIN=your-auth-domain
    VITE_FIREBASE_PROJECT_ID=your-project-id
    VITE_FIREBASE_STORAGE_BUCKET=your-storage-bucket
    VITE_FIREBASE_MESSAGING_SENDER_ID=your-sender-id
    VITE_FIREBASE_APP_ID=your-app-id
+   
+   # Ticketmaster API
+   VITE_TICKETMASTER_API_KEY=your-ticketmaster-api-key
+   VITE_TICKETMASTER_API_URL=https://app.ticketmaster.com/discovery/v2
    ```
 
-4. Start the development server
+4. **Running the Application**
    ```bash
-   npm run dev
-   # or
-   yarn dev
-   # or
+   # Development mode
    pnpm dev
+   
+   # Production build
+   pnpm build
+   pnpm preview
    ```
+
+## 🌍 Live Demo
+
+Explore the live version of City Pulse Explorer:
+
+🔗 [https://city-pulse-event-list.vercel.app/](https://city-pulse-event-list.vercel.app/)
+
+## 🔄 Assumptions
+
+1. **API Dependencies**
+   - A working internet connection is required to fetch event data from Ticketmaster API
+   - Firebase services are used for authentication and data persistence
+
+2. **Browser Support**
+   - Modern browsers (Chrome, Firefox, Safari, Edge) with ES6+ support
+   - Mobile responsiveness is implemented but may vary by device
+
+3. **Authentication**
+   - Email/password authentication is implemented
+   - Biometric login is available on supported devices
+
+4. **Data**
+   - Event data is fetched in real-time from Ticketmaster API
+   - User preferences and favorites are stored in Firestore
+
+## 🛠 Available Scripts
+
+- `dev` - Start development server
+- `build` - Create production build
+- `preview` - Preview production build locally
+- `test` - Run test suite
+- `lint` - Run ESLint for code quality
+- `format` - Format code with Prettier
 
 ## 🏗 Project Structure
 
