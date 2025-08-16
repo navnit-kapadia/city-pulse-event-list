@@ -36,12 +36,14 @@ A modern web application for discovering and exploring local events and activiti
 ### 🛠 Installation
 
 1. **Clone the repository**
+
    ```bash
    git clone https://github.com/yourusername/city-pulse-explorer.git
    cd city-pulse-explorer
    ```
 
 2. **Install dependencies**
+
    ```bash
    pnpm install  # Recommended
    # or
@@ -52,6 +54,7 @@ A modern web application for discovering and exploring local events and activiti
 
 3. **Environment Setup**
    Create a `.env` file in the root directory with the following variables:
+
    ```env
    # Firebase Configuration
    VITE_FIREBASE_API_KEY=your-api-key
@@ -60,17 +63,18 @@ A modern web application for discovering and exploring local events and activiti
    VITE_FIREBASE_STORAGE_BUCKET=your-storage-bucket
    VITE_FIREBASE_MESSAGING_SENDER_ID=your-sender-id
    VITE_FIREBASE_APP_ID=your-app-id
-   
+
    # Ticketmaster API
    VITE_TICKETMASTER_API_KEY=your-ticketmaster-api-key
    VITE_TICKETMASTER_API_URL=https://app.ticketmaster.com/discovery/v2
    ```
 
 4. **Running the Application**
+
    ```bash
    # Development mode
    pnpm dev
-   
+
    # Production build
    pnpm build
    pnpm preview
@@ -85,14 +89,17 @@ Explore the live version of City Pulse Explorer:
 ## 🔄 Assumptions
 
 1. **API Dependencies**
+
    - A working internet connection is required to fetch event data from Ticketmaster API
    - Firebase services are used for authentication and data persistence
 
 2. **Browser Support**
+
    - Modern browsers (Chrome, Firefox, Safari, Edge) with ES6+ support
    - Mobile responsiveness is implemented but may vary by device
 
 3. **Authentication**
+
    - Email/password authentication is implemented
    - Biometric login is available on supported devices
 
@@ -143,43 +150,6 @@ The app supports multiple languages. To add a new language:
 1. Add a new JSON file in `src/i18n/locales/`
 2. Import and add it to the `resources` object in `src/i18n/i18n.ts`
 3. Update the language selector in the UI
-
-## 🚀 Deployment
-
-### Firebase Hosting
-
-1. Install Firebase CLI if you haven't already:
-
-   ```bash
-   npm install -g firebase-tools
-   ```
-
-2. Login to Firebase:
-
-   ```bash
-   firebase login
-   ```
-
-3. Build the app:
-
-   ```bash
-   npm run build
-   ```
-
-4. Deploy:
-   ```bash
-   firebase deploy
-   ```
-
-## 🤝 Contributing
-
-Contributions are welcome! Please follow these steps:
-
-1. Fork the repository
-2. Create a new branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
 
 ## 📄 License
 
