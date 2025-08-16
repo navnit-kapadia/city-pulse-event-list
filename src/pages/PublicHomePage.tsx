@@ -55,8 +55,8 @@ const PublicHomePage: FC = () => {
                   leftIcon={<ExternalLinkIcon />}
                   colorScheme="primary"
                   size="lg"
+                  variant="outline"
                   onClick={handleSignIn}
-                  variant="gradient"
                 >
                   {t('auth.signIn')}
                 </Button>
