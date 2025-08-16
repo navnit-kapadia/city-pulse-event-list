@@ -1,0 +1,178 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "search": "Search",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "close": "Close",
+    "ok": "OK",
+    "yes": "Yes",
+    "no": "No",
+    "cityPulse": "City Pulse"
+  },
+  "navigation": {
+    "home": "Home",
+    "events": "Events",
+    "favorites": "Favorites",
+    "profile": "Profile",
+    "login": "Login",
+    "logout": "Logout",
+    "loading": "Loading..."
+  },
+  "welcome": {
+    "title": "Welcome to City Pulse",
+    "subtitle": "Discover amazing events happening in your city. From concerts and festivals to workshops and exhibitions - never miss out on what's happening around you.",
+    "discoverEvents": "Discover Local Events",
+    "featuresTitle": "Why Choose City Pulse?",
+    "features": {
+      "discover": {
+        "title": "Discover Events",
+        "description": "Find concerts, festivals, workshops, and more happening in your area. Stay updated with the latest events and activities."
+      },
+      "favorites": {
+        "title": "Save Favorites",
+        "description": "Keep track of events you're interested in and never miss out. Create your personal collection of must-attend events."
+      },
+      "location": {
+        "title": "Location-Based",
+        "description": "Find events near you with integrated maps and location services. Get directions and venue details instantly."
+      }
+    },
+    "howItWorks": {
+      "title": "How It Works",
+      "step1": {
+        "title": "Sign Up",
+        "description": "Create your free account in seconds using Google or email"
+      },
+      "step2": {
+        "title": "Search Events",
+        "description": "Browse and search for events in your city or area of interest"
+      },
+      "step3": {
+        "title": "Save & Attend",
+        "description": "Save your favorite events and get reminders so you never miss out"
+      }
+    },
+    "cta": {
+      "title": "Ready to explore what's happening in your city?",
+      "description": "Join thousands of users who discover amazing events every day.",
+      "getStarted": "Get Started",
+      "createAccount": "Create Account"
+    }
+  },
+  "search": {
+    "placeholder": "Search events...",
+    "cityPlaceholder": "Enter city",
+    "keywordPlaceholder": "Enter keyword",
+    "searchButton": "Search Events",
+    "noResults": "No events found",
+    "searchResults": "Search Results"
+  },
+  "event": {
+    "details": "Event Details",
+    "date": "Date",
+    "time": "Time",
+    "venue": "Venue",
+    "price": "Price",
+    "category": "Category",
+    "description": "Description",
+    "addToFavorites": "Add to Favorites",
+    "removeFromFavorites": "Remove from Favorites",
+    "viewDetails": "View Details",
+    "ticketInfo": "Ticket Information",
+    "location": "Location",
+    "locationNotAvailable": "Location not available",
+    "signInToAddFavorites": "Please sign in to add events to your favorites",
+    "favoritesUpdateFailed": "Failed to update favorites. Please try again later."
+  },
+  "auth": {
+    "loginWithBiometrics": "Login with Biometrics",
+    "signingIn": "Signing in...",
+    "signInSuccess": "Successfully signed in!",
+    "biometricSuccess": "Successfully authenticated with biometrics!",
+    "signUp": "Sign Up",
+    "or": "OR",
+    "signIn": "Sign In",
+    "signOut": "Sign Out",
+    "signInWithGoogle": "Sign in with Google",
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "forgotPassword": "Forgot Password?",
+    "createAccount": "Create Account",
+    "alreadyHaveAccount": "Already have an account?",
+    "dontHaveAccount": "Don't have an account?",
+    "enableBiometric": "Enable Biometric Authentication",
+    "biometricLogin": "Biometric Login",
+    "biometricRegister": "Register Biometric Login",
+    "biometricAuthenticating": "Authenticating...",
+    "biometricRegistering": "Registering...",
+    "biometricRegisterButton": "Register Biometric",
+    "biometricAuthButton": "Authenticate with Biometrics",
+    "biometricNotSupported": "Biometric authentication is not supported",
+    "biometricRequirements": "Requires a device with biometric sensors and HTTPS",
+    "biometricRegisterDesc": "Register your biometric data to enable quick login",
+    "biometricLoginDesc": "Use your fingerprint, face ID, or other biometric method to access your account",
+    "biometricDataAccess": "This will access your actual Google account data",
+    "biometricRegisterError": "Please login with Google first to register biometric authentication",
+    "biometricRegisterFailed": "Failed to register biometric authentication",
+    "biometricCancelled": "User cancelled biometric registration",
+    "biometricAlreadyExists": "This device already has biometric credentials for this account",
+    "biometricAuthFailed": "Biometric authentication failed",
+    "biometricAuthCancelled": "User cancelled biometric authentication",
+    "biometricNotFound": "Biometric credential not found. Please register first.",
+    "biometricSessionExpired": "Session expired. Please login with Google again.",
+    "biometricCredentialNotFound": "No biometric credential found. Please register first.",
+    "emailPlaceholder": "Enter your email",
+    "passwordPlaceholder": "Enter your password",
+    "confirmPasswordPlaceholder": "Confirm your password",
+    "creatingAccount": "Creating account...",
+    "signingUp": "Signing up...",
+    "accountCreated": "Account created successfully!",
+    "signUpFailed": "Sign Up Failed",
+    "featureComingSoon": "Feature Coming Soon",
+    "emailRegistrationSoon": "Email registration will be available soon. Please use Google sign-in for now.",
+    "authenticationFailed": "Authentication failed. Please check your Firebase configuration."
+  },
+  "languages": {
+    "english": "🇺🇸 English",
+    "arabic": "🇸🇦 العربية"
+  },
+  "profile": {
+    "title": "Profile",
+    "personalInfo": "Personal Information",
+    "preferences": "Preferences",
+    "language": "Language",
+    "notifications": "Notifications",
+    "theme": "Theme",
+    "location": "Location",
+    "favoriteEvents": "Favorite Events",
+    "editProfile": "Edit Profile",
+    "saveChanges": "Save Changes",
+    "security": "Security Settings",
+    "biometricLogin": "Biometric Login",
+    "biometricDescription": "Use fingerprint, face ID, or other biometric authentication for quick and secure login",
+    "biometricEnabled": "Your device biometrics are linked to this account",
+    "enableBiometric": "Enable Biometric",
+    "disableBiometric": "Disable",
+    "biometricNotSupported": "Biometric authentication is not supported on this device",
+    "biometricRequirements": "Requires a device with biometric sensors (fingerprint, face ID) and HTTPS"
+  },
+  "favorites": {
+    "title": "My Favorites",
+    "empty": "No favorite events yet",
+    "addEvents": "Start adding events to your favorites!",
+    "loading": "Loading your favorites..."
+  },
+  "settings": {
+    "language": "Language",
+    "english": "English",
+    "arabic": "العربية"
+  }
+}
