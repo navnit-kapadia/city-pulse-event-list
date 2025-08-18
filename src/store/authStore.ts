@@ -137,8 +137,6 @@ export const useAuthStore = create<AuthStore>((set, get) => ({
     try {
       set({ isLoading: true });
       await logout();
-      await asyncStorageService.clearAll();
-
       set({
         user: null,
         isAuthenticated: false,

@@ -5,8 +5,13 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router';
 import i18n from './i18n';
 import theme from './styles/theme';
 
-// Pages
+// Hooks
+import { useAppInitialization } from '@/hooks/useAppInitialization';
+
+// Components
 import ProtectedRoute from '@/components/common/ProtectedRoute';
+
+// Pages
 import EventDetailsPage from '@/pages/EventDetailsPage';
 import FavoritesPage from '@/pages/FavoritesPage';
 import HomePage from '@/pages/HomePage';
@@ -16,9 +21,9 @@ import PublicHomePage from '@/pages/PublicHomePage';
 import SignUpPage from '@/pages/SignUpPage';
 import SplashScreen from '@/pages/SplashScreen';
 
-// Components
-
-function App() {
+const App: React.FC = () => {
+  // Initialize app data (including favorites)
+  useAppInitialization();
   return (
     <I18nextProvider i18n={i18n}>
       <ChakraProvider theme={theme}>
